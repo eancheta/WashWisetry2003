@@ -12,7 +12,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       document.getElementById("message").style.color = "green";
 
       setTimeout(() => {
-        window.location.href = "Dashboard.html";
+        window.location.href = "dashboard.html";
       }, 1500);
     } else {
       document.getElementById("message").textContent = "Invalid username or password.";
